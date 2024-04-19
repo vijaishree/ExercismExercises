@@ -1,29 +1,66 @@
+import java.lang.reflect.Array;
+import java.util.LinkedList;
+import java.util.NoSuchElementException;
+
 class SimpleLinkedList<T> {
-    SimpleLinkedList() {
-        throw new UnsupportedOperationException("Please implement the SimpleLinkedList() constructor.");
-    }
+    Node head;
+   class Node{
+       T data ;
+       Node next;
+       public Node(T data){
+            this.data = data;
+            next = null;
+       }
+
+   }
+   int size = 0;
+    SimpleLinkedList() {}
 
     SimpleLinkedList(T[] values) {
-        throw new UnsupportedOperationException("Please implement the SimpleLinkedList(T[]) constructor.");
+        for(T value : values) push(value);
     }
 
     void push(T value) {
-        throw new UnsupportedOperationException("Please implement the SimpleLinkedList.push() method.");
+        Node newNode = new Node(value);
+        newNode.next = head ;
+        head = newNode;
+        size++;
     }
 
     T pop() {
-        throw new UnsupportedOperationException("Please implement the SimpleLinkedList.pop() method.");
+    if(size==0) throw new NoSuchElementException();
+    Node current = head;
+    head = current.next;
+    size--;
+    return current.data;
     }
 
     void reverse() {
-        throw new UnsupportedOperationException("Please implement the SimpleLinkedList.reverse() method.");
+        Node prev = null;
+        Node current = head;
+        Node next = null;
+        while (current != null) {
+            next = current.next;
+            current.next = prev;
+            prev = current;
+            current = next;
+        }
+        head = prev;
+
     }
 
     T[] asArray(Class<T> clazz) {
-        throw new UnsupportedOperationException("Please implement the SimpleLinkedList.asArray() method.");
+
+        T[] arrayList = (T[]) Array.newInstance(clazz,size);
+        Node currentNode = head ;
+        for(int i =0;i<size;i++){
+            arrayList[i]= currentNode.data;
+            currentNode = currentNode.next;
+        }
+        return arrayList;
     }
 
     int size() {
-        throw new UnsupportedOperationException("Please implement the SimpleLinkedList.size() method.");
+    return size;
     }
 }

@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bad3c509-3748-4ed1-8858-5f3e58213f67" name="Changes" comment="" />
+    <list default="true" id="bad3c509-3748-4ed1-8858-5f3e58213f67" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SimpleLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SimpleLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SimpleLinkedListTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,24 +20,49 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="simple-linked-list" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="simple-linked-list" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "vijaishree"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vijaishree&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/vijaishree/ExercismExercises.git",
-    "accountId": "f86c15f8-f35e-4bc2-897c-09d99ad24328"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vijaishree/ExercismExercises.git&quot;,
+    &quot;accountId&quot;: &quot;f86c15f8-f35e-4bc2-897c-09d99ad24328&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2fHrixQVARvZ06cZ2uVUvDm4GVX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,9 +70,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Build simple-linked-list.executor": "Run",
     "Gradle.SimpleLinkedListTest.aNewListIsEmpty.executor": "Run",
     "Gradle.SimpleLinkedListTest.canCreateFromArray.executor": "Run",
+    "Gradle.SimpleLinkedListTest.canReturnListAsArray.executor": "Run",
     "Gradle.SimpleLinkedListTest.executor": "Run",
+    "Gradle.SimpleLinkedListTest.popOnEmptyListWillThrow.executor": "Run",
+    "Gradle.SimpleLinkedListTest.popReturnsLastAddedElement.executor": "Run",
+    "Gradle.SimpleLinkedListTest.reverseReversesList.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
@@ -50,7 +85,7 @@
     "last_opened_file_path": "C:/Users/Vijai Shree/Exercism/java/ExercismExercises/java/nth-prime"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.SimpleLinkedListTest.canCreateFromArray">
+  <component name="RunManager" selected="Gradle.SimpleLinkedListTest.canReturnEmptyListAsEmptyArray">
     <configuration name="SimpleLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -75,7 +110,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SimpleLinkedListTest.aNewListIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SimpleLinkedListTest.canReturnEmptyListAsEmptyArray" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -88,7 +123,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;SimpleLinkedListTest.aNewListIsEmpty&quot;" />
+            <option value="&quot;SimpleLinkedListTest.canReturnEmptyListAsEmptyArray&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -99,7 +134,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="SimpleLinkedListTest.canCreateFromArray" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SimpleLinkedListTest.canReturnListAsArray" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -112,7 +147,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;SimpleLinkedListTest.canCreateFromArray&quot;" />
+            <option value="&quot;SimpleLinkedListTest.canReturnListAsArray&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SimpleLinkedListTest.popReturnsLastAddedElement" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;SimpleLinkedListTest.popReturnsLastAddedElement&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="SimpleLinkedListTest.reverseReversesList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;SimpleLinkedListTest.reverseReversesList&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -125,8 +208,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SimpleLinkedListTest.canCreateFromArray" />
-        <item itemvalue="Gradle.SimpleLinkedListTest.aNewListIsEmpty" />
+        <item itemvalue="Gradle.SimpleLinkedListTest.canReturnEmptyListAsEmptyArray" />
+        <item itemvalue="Gradle.SimpleLinkedListTest.canReturnListAsArray" />
+        <item itemvalue="Gradle.SimpleLinkedListTest.reverseReversesList" />
+        <item itemvalue="Gradle.SimpleLinkedListTest.popReturnsLastAddedElement" />
         <item itemvalue="Gradle.SimpleLinkedListTest" />
       </list>
     </recent_temporary>
