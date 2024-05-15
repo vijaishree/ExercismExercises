@@ -3,11 +3,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 class ResistorColor {
-
+    String[] colorsList = new String[]{"black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "grey", "white"};
 
     String[] colors() {
-        String[] colorsList = new String[]{"black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "grey", "white"};
-        return colorsList;
+        
+        return this.colorsList;
 
     }
 

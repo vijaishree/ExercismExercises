@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bad3c509-3748-4ed1-8858-5f3e58213f67" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SimpleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SimpleLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SimpleLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,23 +66,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build simple-linked-list.executor": "Run",
-    "Gradle.SimpleLinkedListTest.aNewListIsEmpty.executor": "Run",
-    "Gradle.SimpleLinkedListTest.canCreateFromArray.executor": "Run",
-    "Gradle.SimpleLinkedListTest.canReturnListAsArray.executor": "Run",
-    "Gradle.SimpleLinkedListTest.executor": "Run",
-    "Gradle.SimpleLinkedListTest.popOnEmptyListWillThrow.executor": "Run",
-    "Gradle.SimpleLinkedListTest.popReturnsLastAddedElement.executor": "Run",
-    "Gradle.SimpleLinkedListTest.reverseReversesList.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Vijai Shree/Exercism/java/ExercismExercises/java/nth-prime"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build simple-linked-list.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleLinkedListTest.aNewListIsEmpty.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleLinkedListTest.canCreateFromArray.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleLinkedListTest.canReturnEmptyListAsEmptyArray.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleLinkedListTest.canReturnListAsArray.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleLinkedListTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleLinkedListTest.popOnEmptyListWillThrow.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleLinkedListTest.popReturnsLastAddedElement.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SimpleLinkedListTest.reverseReversesList.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vijai Shree/Exercism/java/ExercismExercises/java/nth-prime&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.SimpleLinkedListTest.canReturnEmptyListAsEmptyArray">
     <configuration name="SimpleLinkedListTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
